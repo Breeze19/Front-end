@@ -1,106 +1,453 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Breeze is the annual Inter-College-Sports-Techno-Cultural fest of Shiv Nadar University.">
-    <title>Gallery - Breeze'19</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="assets/css/Brands.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
-    <link rel="stylesheet" href="assets/css/Testimonials.css">
+    <title>Breeze'19</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/Blogo.ico" type="image/x-icon">
+    <link rel="icon" href="images/Blogo.ico" type="image/x-icon">
+
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><a class="navbar-brand text-monospace logo" href="index.html" style="color:rgb(218,255,0);"><strong><em>Breeze'19</em></strong></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="payment-page.html">Payment</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="shopping-cart.html">Shopping Cart</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="login.html">Login</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="registration.html">Register</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="catalog-page.html">Event</a></li>
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/Blogo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+
+                <ul class="header-nav__list">
+                    <li ><a href="index.html" title="home">Home</a></li>
+                    <li class="current"><a href="gallery.html" title="works">Gallery</a></li>
+                    <li><a href="sponsors.html" title="clients">Sponsors</a></li>
                 </ul>
-        </div>
-        </div>
-    </nav>
-    <main class="page gallery-page">
-        <section class="clean-block clean-gallery dark">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">Gallery</h2>
-                    <p></p>
+
+                <!--<p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>-->
+
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <!--<li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>-->
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <!--<li>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </li>-->
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Gallery</h3>
+                    <h1 class="display-2 display-2--light">Glimpse of Breeze</h1>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image1.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/27797920_1590197637722682_8529524780225609714_o.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image4.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/27912641_1588620854547027_2246391428295618393_o.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image6.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/library.jpeg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image5.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/27747711_1588621324546980_6126557206134358954_o.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image1.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/27797920_1590197637722682_8529524780225609714_o.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image4.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/27912641_1588620854547027_2246391428295618393_o.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image6.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/library.jpeg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image5.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/27747711_1588621324546980_6126557206134358954_o.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item"><a href="assets/img/scenery/image1.jpg" class="lightbox"><img class="img-thumbnail img-fluid image" src="assets/img/Breeze/27624935_1588622661213513_3312031156722192314_o.jpg"></a></div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/breeze/27624935_1588622661213513_3312031156722192314_o.jpg" class="thumb-link" data-size="1024x683">
+                                    <img src="images/breeze/27624935_1588622661213513_3312031156722192314_o.jpgg"
+                                         srcset="images/breeze/27624935_1588622661213513_3312031156722192314_o.jpg 2x, images/breeze/27624935_1588622661213513_3312031156722192314_o.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <!--<div class="item-folio__text">
+                                <h3 class="item-folio__title">
+
+                                </h3>
+                                <p class="item-folio__cat">
+
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>-->
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/breeze/27747711_1588621324546980_6126557206134358954_o.jpg" class="thumb-link" data-size="1024x683">
+                                    <img src="images/breeze/27747711_1588621324546980_6126557206134358954_o.jpg"
+                                         srcset="images/breeze/27747711_1588621324546980_6126557206134358954_o.jpg 2x, images/breeze/27747711_1588621324546980_6126557206134358954_o.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <!--<div class="item-folio__text">
+                                <h3 class="item-folio__title">
+
+                                </h3>
+                                <p class="item-folio__cat">
+
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>-->
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/breeze/27797920_1590197637722682_8529524780225609714_o.jpg" class="thumb-link" data-size="1024x683">
+                                    <img src="images/breeze/27797920_1590197637722682_8529524780225609714_o.jpg"
+                                         srcset="images/breeze/27797920_1590197637722682_8529524780225609714_o.jpg 2x, images/breeze/27797920_1590197637722682_8529524780225609714_o.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <!--<div class="item-folio__text">
+                                <h3 class="item-folio__title">
+
+                                </h3>
+                                <p class="item-folio__cat">
+
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>-->
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/breeze/27912641_1588620854547027_2246391428295618393_o.jpg" class="thumb-link" data-size="1024x683">
+                                    <img src="images/breeze/27912641_1588620854547027_2246391428295618393_o.jpg"
+                                         srcset="images/breeze/27912641_1588620854547027_2246391428295618393_o.jpg 2x, images/breeze/27912641_1588620854547027_2246391428295618393_o.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <!--<div class="item-folio__text">
+                                <h3 class="item-folio__title">
+
+                                </h3>
+                                <p class="item-folio__cat">
+
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>-->
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+
+
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                    <img src="images/portfolio/woodcraft.jpg"
+                                         srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Woodcraft
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+
+                        </div>
+                    </div> --><!-- end masonry__brick -->
+
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                    <img src="images/portfolio/the-beetle.jpg"
+                                         srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    The Beetle
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Development
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+
+                        </div>
+                    </div> --><!-- end masonry__brick -->
+
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                    <img src="images/portfolio/grow-green.jpg"
+                                         srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Grow Green
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Branding
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+
+                        </div>
+                    </div> --><!-- end masonry__brick -->
+
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                    <img src="images/portfolio/guitarist.jpg"
+                                         srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Guitarist
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+
+                        </div>
+                    </div> --><!-- end masonry__brick -->
+
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                    <img src="images/portfolio/palmeira.jpg"
+                                         srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Palmeira
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+
+                        </div>
+                    </div> --><!-- end masonry__brick -->
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer class="page-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5 style="color:#daff00;">Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5 style="color:#daff00;">About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5 style="color:#daff00;">Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5 style="color:#daff00;">Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <p style="color:#daff00;">© 2018 Copyright Text</p>
-        </div>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/theme.js"></script>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>

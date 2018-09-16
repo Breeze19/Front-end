@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Glint v1.0 Main Stylesheet
  *  11-20-2017
@@ -22,18 +22,18 @@
  *  # additional components
  *      ## alert box
  *      ## additional typo styles
- *      ## skillbars 
+ *      ## skillbars
  *  # reusable and common theme styles
  *      ## display headings
  *      ## section header
  *      ## slick slider
  *  # header styles
  *      ## header logo
- *      ## main navigation 
- *      ## mobile menu toggle 
- *  # home 
+ *      ## main navigation
+ *      ## mobile menu toggle
+ *  # home
  *      ## home content
- *      ## home social 
+ *      ## home social
  *      ## home animations
  *  # about
  *      ## about stats
@@ -86,7 +86,7 @@ body {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links
  * ------------------------------------------------------------------- */
 a {
@@ -96,7 +96,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 a:hover, a:active {
@@ -107,12 +107,12 @@ a:hover, a:active {
 
 /* ===================================================================
  * # typography & general theme styles
- * 
+ *
  * ------------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6, 
+h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "montserrat-medium", sans-serif;
-    color: #000000;
+    color: #231f20;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -191,7 +191,7 @@ p.lead {
     font-weight: 300;
     line-height: 1.8;
     margin-bottom: 3.6rem;
-    color: #000000;
+    color: #231f20;
 }
 
 @media only screen and (max-width: 800px) {
@@ -315,7 +315,7 @@ abbr[title], dfn[title] {
 
 mark {
     background: #ffd900;
-    color: #000000;
+    color: #231f20;
 }
 
 hr {
@@ -327,7 +327,7 @@ hr {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Lists
  * ------------------------------------------------------------------- */
 ol {
@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #39b54a;
+    background: #f9ed00;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 dd {
@@ -384,7 +384,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## responsive video container
  * ------------------------------------------------------------------- */
 .video-container {
@@ -406,7 +406,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## floated image
  * ------------------------------------------------------------------- */
 img.pull-right {
@@ -418,7 +418,7 @@ img.pull-left {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tables
  * ------------------------------------------------------------------- */
 table {
@@ -435,7 +435,7 @@ th, td {
 }
 
 th {
-    color: #000000;
+    color: #231f20;
     font-family: "montserrat-bold", sans-serif;
 }
 
@@ -457,8 +457,8 @@ th:last-child, td:last-child {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Spacing 
+/* -------------------------------------------------------------------
+ * ## Spacing
  * ------------------------------------------------------------------- */
 button, .btn {
     margin-bottom: 1.2rem;
@@ -486,7 +486,7 @@ form,
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## pace.js styles - minimal
  * ------------------------------------------------------------------- */
 .pace {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #f9ed00;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #39b54a;
+    background-color: #f9ed00;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -701,7 +701,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-    color: #000000;
+    color: #231f20;
     border-bottom: 2px solid black;
 }
 
@@ -711,7 +711,7 @@ label, legend {
     font-weight: bold;
     margin-bottom: .9rem;
     line-height: 1.714;
-    color: #000000;
+    color: #231f20;
     display: block;
 }
 
@@ -727,7 +727,7 @@ label > .label-text {
     line-height: inherit;
 }
 
-label > input[type="checkbox"], 
+label > input[type="checkbox"],
 label > input[type="radio"] {
     margin: 0;
     position: relative;
@@ -735,7 +735,7 @@ label > input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
@@ -761,7 +761,7 @@ label > input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## change autocomplete styles in chrome
  * ------------------------------------------------------------------- */
 input:-webkit-autofill,
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #39b54a;
+    -webkit-text-fill-color: #f9ed00;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -796,7 +796,7 @@ input[type="button"] {
     line-height: calc(5.4rem - .4rem);
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
-    color: #000000;
+    color: #231f20;
     text-decoration: none;
     text-align: center;
     white-space: nowrap;
@@ -819,7 +819,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
     background-color: #b8b8b8;
     border-color: #b8b8b8;
-    color: #000000;
+    color: #231f20;
     outline: 0;
 }
 
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #f9ed00;
+    border-color: #f9ed00;
     color: #FFFFFF;
 }
 
@@ -872,13 +872,13 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #39b54a;
-    color: #39b54a;
+    border: 0.2rem solid #f9ed00;
+    color: #f9ed00;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.2rem solid #000000;
-    color: #000000;
+    border: 0.2rem solid #231f20;
+    color: #231f20;
 }
 
 .btn--pill, button.btn--pill {
@@ -893,13 +893,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* =================================================================== 
+/* ===================================================================
  * # additional components
  *
  * ------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## alert box
  * ------------------------------------------------------------------- */
 .alert-box {
@@ -944,12 +944,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## additional typo styles 
+/* -------------------------------------------------------------------
+ * ## additional typo styles
  * ------------------------------------------------------------------- */
 
 
-/* drop cap 
+/* drop cap
  * ----------------------------------------------- */
 .drop-cap:first-letter {
     float: left;
@@ -961,11 +961,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 6rem;
     text-indent: 0;
     background: transparent;
-    color: #000000;
+    color: #231f20;
 }
 
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 .lining dt, .lining dd {
     display: inline;
@@ -991,7 +991,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 .dictionary-style dt {
     display: inline;
@@ -1013,7 +1013,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -1060,7 +1060,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1097,11 +1097,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-regular", sans-serif;
     font-weight: bold;
     border: none;
-    color: #000000;
+    color: #231f20;
 }
 
 .stats-tabs li a:hover {
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 .stats-tabs li a em {
@@ -1113,8 +1113,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## skillbars 
+/* -------------------------------------------------------------------
+ * ## skillbars
  * ------------------------------------------------------------------- */
 .skill-bars {
     list-style: none;
@@ -1135,7 +1135,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     left: 0;
     top: -3rem;
     font-family: "montserrat-bold", sans-serif;
-    color: #000000;
+    color: #231f20;
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: 1.4rem;
@@ -1143,7 +1143,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-    background: #000000;
+    background: #231f20;
     position: relative;
     height: 100%;
 }
@@ -1157,7 +1157,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #FFFFFF;
     font-size: 1.1rem;
     line-height: 1;
-    background: #000000;
+    background: #231f20;
     padding: .6rem .6rem;
     border-radius: 3px;
 }
@@ -1169,7 +1169,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-left: -5px;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
-    border-top: 5px solid #000000;
+    border-top: 5px solid #231f20;
     content: "";
 }
 
@@ -1209,14 +1209,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 7.8rem;
     line-height: 1.25;
-    color: #000000;
+    color: #231f20;
     margin-top: 0;
 }
 
@@ -1228,7 +1228,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 5.2rem;
     line-height: 1.255;
-    color: #000000;
+    color: #231f20;
     margin-top: 0;
 }
 
@@ -1246,17 +1246,17 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #39b54a;
+    color: #f9ed00;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .subhead--dark {
-    color: #000000;
+    color: #231f20;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * display headings
  * ------------------------------------------------------------------- */
@@ -1300,7 +1300,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## section header
  * ------------------------------------------------------------------- */
 .section-header {
@@ -1334,7 +1334,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * section-header
  * ------------------------------------------------------------------- */
@@ -1369,8 +1369,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## slick slider 
+/* -------------------------------------------------------------------
+ * ## slick slider
  * ------------------------------------------------------------------- */
 .slick-slider .slick-slide {
     outline: none;
@@ -1420,7 +1420,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #39b54a;
+    background: #f9ed00;
 }
 
 
@@ -1467,8 +1467,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## main navigation 
+/* -------------------------------------------------------------------
+ * ## main navigation
  * ------------------------------------------------------------------- */
 .header-nav {
     background: #0C0C0C;
@@ -1513,7 +1513,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: .9rem;
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 .header-nav p {
@@ -1586,7 +1586,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     z-index: 800;
 }
 
-.header-nav__close span::before, 
+.header-nav__close span::before,
 .header-nav__close span::after {
     content: "";
     display: block;
@@ -1637,8 +1637,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle 
+/* -------------------------------------------------------------------
+ * ## mobile menu toggle
  * ------------------------------------------------------------------- */
 .header-menu-toggle {
     position: fixed;
@@ -1651,17 +1651,17 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: #f9ed00;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 
 .header-menu-toggle.opaque {
-    background-color: #000000;
+    background-color: #231f20;
 }
 
 .header-menu-toggle.opaque .header-menu-text {
-    background-color: #000000;
+    background-color: #231f20;
 }
 
 .header-menu-toggle:hover, .header-menu-toggle:focus {
@@ -1712,7 +1712,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * header
  * ------------------------------------------------------------------- */
@@ -1737,7 +1737,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
 /* ===================================================================
- * # home 
+ * # home
  *
  * ------------------------------------------------------------------- */
 .s-home {
@@ -1759,7 +1759,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#231f2000', endColorstr='#cc000000', GradientType=0);
 }
 
 .s-home .overlay {
@@ -1769,15 +1769,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .6;
-    background-color: #000000;
+    background-color: #231f20;
 }
 
 .no-js .s-home {
-    background: #000000;
+    background: #231f20;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home content
  * ------------------------------------------------------------------- */
 .home-content {
@@ -1834,10 +1834,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-right: 0;
 }
 
-.home-content__buttons .btn:hover, 
+.home-content__buttons .btn:hover,
 .home-content__buttons .btn:focus {
     background: #FFFFFF !important;
-    color: #000000;
+    color: #231f20;
 }
 
 .home-content__scroll {
@@ -1859,8 +1859,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #39b54a;
-    border-right: 2px solid #39b54a;
+    border-bottom: 2px solid #f9ed00;
+    border-right: 2px solid #f9ed00;
     content: '';
     display: block;
     height: 8px;
@@ -1884,15 +1884,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: #f9ed00;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## home social 
+/* -------------------------------------------------------------------
+ * ## home social
  * ------------------------------------------------------------------- */
 .home-social {
     font-family: "montserrat-regular", sans-serif;
@@ -1944,7 +1944,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #39b54a;
+    color: #f9ed00;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -1983,7 +1983,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## home animations
  * ------------------------------------------------------------------- */
 
@@ -2048,7 +2048,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * home
  * ------------------------------------------------------------------- */
@@ -2200,7 +2200,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: #f9ed00;
     color: #010507;
     position: relative;
 }
@@ -2217,7 +2217,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## about stats
  * ------------------------------------------------------------------- */
 .about-stats {
@@ -2248,10 +2248,21 @@ html.no-csstransitions .home-content__main {
     white-space: nowrap;
 }
 
+.stats__count1 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 8.4rem;
+    line-height: 1;
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .stats h5 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
-    color: #000000;
+    color: #231f20;
     font-size: 1.8rem;
     line-height: 1.333;
     position: relative;
@@ -2268,7 +2279,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * about
  * ------------------------------------------------------------------- */
@@ -2301,6 +2312,9 @@ html.no-csstransitions .home-content__main {
         max-width: 600px;
     }
     .stats__count {
+        font-size: 8rem;
+    }
+    .stats__count1 {
         font-size: 8rem;
     }
     .stats h5 {
@@ -2359,6 +2373,9 @@ html.no-csstransitions .home-content__main {
     .stats__count {
         font-size: 7.8rem;
     }
+    .stats__count1 {
+        font-size: 7.8rem;
+    }
 }
 
 
@@ -2376,7 +2393,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## services list
  * ------------------------------------------------------------------- */
 .services-list {
@@ -2405,13 +2422,13 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #39b54a;
+    color: #f9ed00;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * services
  * ------------------------------------------------------------------- */
@@ -2509,7 +2526,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
 .masonry:after {
@@ -2659,11 +2676,11 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
     background-color: #FFFFFF;
-    color: #000000;
+    color: #231f20;
 }
 
 
-/* on hover 
+/* on hover
  * ----------------------------------------------- */
 .item-folio:hover .item-folio__thumb a::before {
     opacity: 1;
@@ -2694,7 +2711,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * works
  * ------------------------------------------------------------------- */
@@ -2738,7 +2755,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## slider
  * ------------------------------------------------------------------- */
 .clients-outer {
@@ -2761,7 +2778,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## testimonials
  * ------------------------------------------------------------------- */
 .clients-testimonials {
@@ -2809,14 +2826,14 @@ html.no-csstransitions .home-content__main {
     margin: 0 auto 1.2rem auto;
 }
 
-.clients-testimonials .testimonials__name, 
+.clients-testimonials .testimonials__name,
 .clients-testimonials .testimonials__pos {
     display: block;
 }
 
 .clients-testimonials .testimonials__name {
     font-family: "montserrat-semibold", sans-serif;
-    color: #000000;
+    color: #231f20;
 }
 
 .clients-testimonials .testimonials__pos {
@@ -2860,7 +2877,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * clients
  * ------------------------------------------------------------------- */
@@ -2928,7 +2945,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # contact 
+ * # contact
  *
  * ------------------------------------------------------------------- */
 .s-contact {
@@ -2974,7 +2991,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #39b54a;
+    background: #f9ed00;
 }
 
 .s-contact .form-field label::after {
@@ -2985,14 +3002,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #39b54a;
+    border-right: 5px solid #f9ed00;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #39b54a;
+    background-color: #f9ed00;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3019,7 +3036,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 .contact-content input[type="email"],
@@ -3046,7 +3063,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #39b54a;
+    border-bottom: 1px solid #f9ed00;
 }
 
 .contact-content button,
@@ -3135,16 +3152,16 @@ html.no-csstransitions .home-content__main {
     color: white;
 }
 
-.contact-social li a:hover, 
+.contact-social li a:hover,
 .contact-social li a:focus {
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 .contact-social li:last-child {
     margin: 0;
 }
 
-.message-warning, 
+.message-warning,
 .message-success {
     display: none;
     background: #111111;
@@ -3160,7 +3177,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 .message-warning i, .message-success i {
@@ -3201,8 +3218,8 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* --------------------------------------------------------------- 
- * ## loader animation 
+/* ---------------------------------------------------------------
+ * ## loader animation
  * --------------------------------------------------------------- */
 .s-loader {
     margin: 1.2rem auto 3rem;
@@ -3261,7 +3278,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
@@ -3352,7 +3369,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: #f9ed00;
 }
 
 footer .row {
@@ -3360,7 +3377,7 @@ footer .row {
 }
 
 
-/* --------------------------------------------------------------- 
+/* ---------------------------------------------------------------
  * ## footer main
  * --------------------------------------------------------------- */
 .footer-main {
@@ -3383,7 +3400,7 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
+    background: url("../images/Blogo.png") no-repeat center;
     background-size: 85px 28px;
     font: 0/0 a;
     text-shadow: none;
@@ -3444,8 +3461,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #f9ed00;
+    border-color: #f9ed00;
     padding: 0 20px;
 }
 
@@ -3486,7 +3503,7 @@ footer .row {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## go to top
  * ------------------------------------------------------------------- */
 .go-top {
@@ -3523,7 +3540,7 @@ footer .row {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * footer
  * ------------------------------------------------------------------- */
